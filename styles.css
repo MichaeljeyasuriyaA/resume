@@ -306,7 +306,14 @@ li {
   left: 10%;
   color: #73faf3;
 }
-
+.icons span a
+{
+  color: #73faf3;  
+}
+.icons span a:hover
+{
+  color:  #8133b5;
+}
 .icons span:not(:last-child) {
   margin-right: 1rem;
 }
@@ -317,9 +324,9 @@ li {
   transition: all 300ms ease-in-out;
 }
 
-.icons span:hover {
+/* .icons span:hover {
   color:  #8133b5;
-}
+} */
 
 @media only screen and (max-width: 567px) {
   .icons {
