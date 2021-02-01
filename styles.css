@@ -72,11 +72,12 @@ li {
 
 @media only screen and (max-width: 996px) {
   .header {
-    min-height: 60vh;
+    min-height: 100vh;
   }
 
   .header img {
-    width: 50rem;
+    width: 40rem;
+    height: 35rem;
   }
 }
 
@@ -155,7 +156,7 @@ li {
   display: none;
 }
 
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 840px) {
   .menu {
     position: fixed;
     top: 0;
@@ -306,14 +307,16 @@ li {
   left: 10%;
   color: #73faf3;
 }
+
 .icons span a
 {
-  color: #73faf3;  
+  color: #73faf3;
 }
 .icons span a:hover
 {
   color:  #8133b5;
 }
+
 .icons span:not(:last-child) {
   margin-right: 1rem;
 }
@@ -329,8 +332,12 @@ li {
 } */
 
 @media only screen and (max-width: 567px) {
-  .icons {
+  /* .icons {
     display: none;
+  } */
+  .icons span a
+  {
+    color: red;
   }
 }
 
@@ -339,6 +346,7 @@ li {
 .section {
   padding: 5rem 0 7rem 0;
   overflow-x: hidden;
+
 }
 
 .about {
@@ -394,7 +402,7 @@ li {
 .right h1 span {
   color: #73faf3;
 }
-
+button ,
 a.btn {
   display: inline-block;
   padding: 1rem 2rem;
@@ -405,13 +413,13 @@ a.btn {
   box-shadow: 0 10px 10px rgba(0, 0, 0, 0.1);
   transition: all 300ms ease-in-out;
 }
-
+button:hover,
 a.btn:hover {
   transform: translateY(-3px);
   background-color: transparent;
   color: inherit;
 }
-
+button:active,
 a.btn:active {
   transform: translateY(0px);
 }
@@ -425,6 +433,7 @@ a.btn:active {
     font-size: 1.5rem;
   }
 
+  button,
   a.btn {
     padding: 0.7rem 1.8rem;
   }
@@ -706,11 +715,11 @@ footer {
   text-align: center;
 }
 
-footer p {
-  color: #fff;
+footer p span{
+  color: #73faf3;
 }
 
-footer p span {
+footer p  {
   color: #8133b5;
 }
-/* #dd9a05 */
+/*#dd9a05  */
