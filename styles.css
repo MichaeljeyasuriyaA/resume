@@ -534,7 +534,7 @@ a.btn:active {
 }
 
 .skills-box .html {
-  width: 95%;
+  width: 80%;
 }
 
 .skills-box .css {
@@ -542,15 +542,18 @@ a.btn:active {
 }
 
 .skills-box .javascript {
-  width: 90%;
+  width: 75%;
 }
 
-.skills-box .nodejs {
+.skills-box .python{
   width: 80%;
 }
 
-.skills-box .mongodb {
-  width: 95%;
+.skills-box .java{
+  width: 75%;
+}
+.skills-box .C{
+  width: 85%;
 }
 
 .skills-box span {
